@@ -12,7 +12,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: php:7.1.33
+    runs-on: laravelfans/laravel:8.50.0
 
     steps:
     - uses: actions/checkout@v4
