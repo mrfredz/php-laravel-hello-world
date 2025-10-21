@@ -32,8 +32,8 @@ jobs:
 
     - name: Install dependencies
     - uses: shivammathur/setup-php@v2
-        with:
-          php-version: '7'
+      with:
+        php-version: '7'
     - run: composer install --prefer-dist --no-progress
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
