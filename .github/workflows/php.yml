@@ -29,8 +29,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
 
-
-    - name: Install dependencies
     - uses: shivammathur/setup-php@v2
       with:
         php-version: '7'
