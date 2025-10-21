@@ -31,7 +31,7 @@ jobs:
 
     - uses: shivammathur/setup-php@v2
       with:
-        php-version: '7'
+        php-version: '7.1.3'
     - run: composer install --prefer-dist --no-progress
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
